@@ -1,0 +1,17 @@
+{
+  "bootstrap": false,
+  "server": true,
+  "datacenter": "dc1",
+  "data_dir": "/var/consul",
+  "encrypt": "qBZcwUdvLeSiZOqec2Z0fQ==",
+  "log_level": "INFO",
+  "enable_syslog": true,
+  "ui_dir": "/opt/consul-ui",
+  "recursor": "8.8.8.8",
+  "rejoin_after_leave": true,
+  "retry_join": [
+    "192.168.88.95",
+    "192.168.88.96"
+  ]
+
+}
